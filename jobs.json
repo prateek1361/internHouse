@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Software Engineer",
+    "companyName": "TechCorp",
+    "location": "San Francisco, CA",
+    "salary": 120000,
+    "jobType": "Full-time (On-site)",
+    "description": "Develop and maintain web applications. Collaborate with cross-functional teams.",
+    "qualifications": "Bachelor’s degree in Computer Science or related field. 2+ years experience in full-stack development."
+  },
+  {
+    "title": "Content Writer",
+    "companyName": "Create Inc.",
+    "location": "Austin, TX",
+    "salary": 45000,
+    "jobType": "Part-time (Remote)",
+    "description": "Write compelling blog posts and marketing copy.",
+    "qualifications": "Excellent writing skills. Basic knowledge of SEO and digital marketing."
+  },
+  {
+    "title": "Data Analyst",
+    "companyName": "DataLogic Ltd.",
+    "location": "Chicago, IL",
+    "salary": 80000,
+    "jobType": "Full-time (Remote)",
+    "description": "Analyze large datasets and provide actionable insights.",
+    "qualifications": "Proficiency in SQL and Python. Experience with BI tools like Tableau or Power BI."
+  },
+  {
+    "title": "UX/UI Designer",
+    "companyName": "Design Studio",
+    "location": "Los Angeles, CA",
+    "salary": 70000,
+    "jobType": "Full-time (On-site)",
+    "description": "Design user interfaces for mobile and web applications.",
+    "qualifications": "Portfolio demonstrating UI/UX skills. Proficiency in Figma or Adobe XD."
+  },
+  {
+    "title": "DevOps Engineer",
+    "companyName": "CloudHub",
+    "location": "Remote",
+    "salary": 110000,
+    "jobType": "Full-time (Remote)",
+    "description": "Manage CI/CD pipelines and cloud infrastructure.",
+    "qualifications": "Experience with AWS, Docker, Jenkins. Scripting skills (Bash, Python)."
+  },
+  {
+    "title": "Customer Support Representative",
+    "companyName": "HelpDesk Inc.",
+    "location": "New York, NY",
+    "salary": 40000,
+    "jobType": "Part-time (On-site)",
+    "description": "Handle customer queries and provide solutions via chat and email.",
+    "qualifications": "Strong communication skills. Prior customer service experience is a plus."
+  }
+]
