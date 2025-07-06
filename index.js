@@ -3,6 +3,7 @@ const mongoose = require("mongoose")
 const app = express()
 const { initializeDatabase } = require("./db/db.connect");
 const Job = require("./jobSchema")
+const serverless = require("serverless-http");
 
 app.use(express.json());
 
@@ -62,7 +63,4 @@ app.delete("/jobs/:id", async (req, res) => {
   }
 });
 
-const PORT = 3000
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+module.exports.handler = serverless(app);
