@@ -3,7 +3,6 @@ const mongoose = require("mongoose")
 const app = express()
 const { initializeDatabase } = require("./db/db.connect");
 const Job = require("./jobSchema")
-const serverless = require("serverless-http");
 
 app.use(express.json());
 
@@ -57,10 +56,13 @@ app.delete("/jobs/:id", async (req, res) => {
   try {
     const deletedJob = await Job.findByIdAndDelete(req.params.id);
     if (!deletedJob) return res.status(404).json({ error: "Job not found" });
-    res.status(200).json({ message: "Job deleted successfully" });
+     res.status(200).json({ message: "Job deleted successfully" });
   } catch (err) {
     res.status(500).json({ error: "Error deleting job" });
   }
 });
 
-module.exports.handler = serverless(app);
+const PORT = 3000
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
